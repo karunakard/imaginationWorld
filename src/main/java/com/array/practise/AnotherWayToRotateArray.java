@@ -18,6 +18,7 @@ public class AnotherWayToRotateArray {
 	
 	
 	public void reverseArray(Integer[] arr,int start,int end) {
+		//reverse the array
 		while(start<end) {
 			int temp=arr[start];
 			arr[start]=arr[end];
