@@ -11,7 +11,7 @@ public class BookDao {
 		books.add(new Book(2,"spring",200));
 		books.add(new Book(4, "science",400));
 		books.add(new Book(3,"maths" , 500));
-		
+		books.add(new Book(5,"java",800));
 		return books;
 	}
 
