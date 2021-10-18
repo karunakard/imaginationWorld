@@ -7,12 +7,12 @@ public class MinHeap {
 	
 	private static final int FRONT=1;
 	
-	public MinHeap(int maxSize) {
-		this.maxSize=maxSize;
-		this.size=0;
-		heap=new int[maxSize+1];
-		heap[0]=Integer.MIN_VALUE;
-	}
+	/*
+	 * public MinHeap(int maxSize) { this.maxSize=maxSize; this.size=0; heap=new
+	 * int[maxSize+1]; heap[0]=Integer.MIN_VALUE; }
+	 */
+	
+	//changes has been done
 	
 	
 	
