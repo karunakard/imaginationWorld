@@ -96,17 +96,13 @@ public class MinHeap {
 		
 	}
 	
-	public static void main(String[] args) {
-		MinHeap minHeap=new MinHeap(15);
-		int[] arr= {7,10,4,3,20,15};
-		for(int i=0;i<arr.length;i++) {
-			minHeap.insert(arr[i]);
-		}
-		System.out.println(minHeap.heap[3]);
-	        
-	        minHeap.print();
-	        System.out.println(minHeap.remove() );
-		
-	}
-
+	/*
+	 * public static void main(String[] args) { MinHeap minHeap=new MinHeap(15);
+	 * int[] arr= {7,10,4,3,20,15}; for(int i=0;i<arr.length;i++) {
+	 * minHeap.insert(arr[i]); } System.out.println(minHeap.heap[3]);
+	 * 
+	 * minHeap.print(); System.out.println(minHeap.remove() );
+	 * 
+	 * }
+	 */
 }
